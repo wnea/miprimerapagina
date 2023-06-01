@@ -1,0 +1,184 @@
+body{
+    background-color: black;
+    color: darkgreen;
+}
+
+h1{
+    font-family:"helvetica" arial, sans-serif;
+    font-size: 30px;
+    color:darkcyan;
+    text-align: center;
+}
+
+h2{
+    font-size: medium;
+    margin: 5px;
+}
+
+p{
+    font-family:"Georgia" serif;
+    font-size: small;
+    color:mediumturquoise;
+    padding: 5px;
+    margin: 15px;
+}
+
+.container{
+    max-width: 800px;
+    margin:auto;
+    padding: 20px;
+}
+
+.video{
+    width:500px;
+    height: 500px;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.column{
+    flex: 1;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+}
+
+ .botoncito{
+    margin-top: 25px;
+    background-color:darkslategray;
+    color:mediumturquoise;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.container-nav{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+li>a{
+    padding: 8px 24px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.button-menu-toggle{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .column{
+        flex: 100%
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .button-menu-toggle{
+        display: block;
+        background-color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .nav-links.nav-links-responsive{
+        position: absolute;
+        display: flex;
+        background-color: rgba(22, 20, 20, 0.95);
+        width: 100%;
+        height: 100%;
+        top: 70px;
+        left: 0;
+        flex-direction: column;
+        padding-top: 200px;
+        align-items: center;
+        gap: 70px;
+        font-size: 40px;
+    }
+}
+
+.images{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.imgUno{
+    width: 300px;
+    height: 300px;
+    padding-right: 5px;
+}
+
+.imgDos{
+    width: 300px;
+    height: 300px;
+    padding-right: 5px;
+}
+
+.imgTres{
+    width: 300px;
+    height: 300px;
+    padding-right: 5px;
+}
+
+.imgCuatro{
+    width: 300px;
+    height: 300px;
+    padding-right: 5px;
+}
+
+.imgCinco{
+    width: 300px;
+    height: 300px;
+    padding-right: 5px;
+}
+
+.imgSeis{
+    width: 300px;
+    height: 300px;
+    padding-right: 5px;
+}
